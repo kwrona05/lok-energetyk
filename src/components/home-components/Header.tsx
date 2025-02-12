@@ -1,14 +1,15 @@
+import "./Home.scss";
 const HomeHeader = () => {
   return (
     <div className="container">
-      <div className="homeButton">Strona Główna</div>
-      <div className="aboutUs">O Nas</div>
-      <div className="calendar">Kalendarz</div>
-      <div className="announcement">Zapowiedzi</div>
-      <div className="informations">Informacje</div>
-      <div className="events">Wydarzenia</div>
-      <div className="gallery">Galeria</div>
-      <div className="kontakt">Kontakt</div>
+      <div className="headerButton">Strona Główna</div>
+      <div className="headerButton">O Nas</div>
+      <div className="headerButton">Kalendarz</div>
+      <div className="headerButton">Zapowiedzi</div>
+      <div className="headerButton">Informacje</div>
+      <div className="headerButton">Wydarzenia</div>
+      <div className="headerButton">Galeria</div>
+      <div className="headerButton">Kontakt</div>
     </div>
   );
 };

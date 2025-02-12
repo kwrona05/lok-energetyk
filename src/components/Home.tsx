@@ -1,5 +1,7 @@
 import HomeHeader from "./home-components/Header";
 import Welcome from "./home-components/Welcome";
+import ContactFooter from "./home-components/ContactFooter";
+import Footer from "./home-components/Footer";
 
 const Home = () => {
   return (
@@ -9,6 +11,12 @@ const Home = () => {
       </div>
       <div>
         <Welcome />
+      </div>
+      <div>
+        <ContactFooter />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

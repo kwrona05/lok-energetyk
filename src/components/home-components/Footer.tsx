@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <div>
-      <div>
+    <div className="footerContainer">
+      <div className="footerLogo">
         <img src="logo" alt="logo" />
       </div>
-      <div>
+      <div className="footerLinks">
         <p className="rules">Informacje prawne</p>
         <p>Regulamin</p>
         <p>Polityka prywatności</p>
