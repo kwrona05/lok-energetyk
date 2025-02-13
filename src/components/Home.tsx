@@ -2,6 +2,7 @@ import HomeHeader from "./home-components/Header";
 import Welcome from "./home-components/Welcome";
 import ContactFooter from "./home-components/ContactFooter";
 import Footer from "./home-components/Footer";
+import ClubLife from "./home-components/ClubLife";
 
 const Home = () => {
   return (
@@ -11,6 +12,9 @@ const Home = () => {
       </div>
       <div>
         <Welcome />
+      </div>
+      <div>
+        <ClubLife />
       </div>
       <div>
         <ContactFooter />
